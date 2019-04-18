@@ -229,8 +229,10 @@ Subtotal,Вкупно,module,Magento_Bundle
 "Qty Shipped","Кол. испорачено",module,Magento_Bundle
 Always,Секогаш,module,Magento_Captcha
 "After number of attempts to login","После број на обиди за најавување",module,Magento_Captcha
+"Incorrect CAPTCHA","Внесениот код е погрешен",module,Magento_Captcha
+"Incorrect CAPTCHA.","Внесениот код е погрешен.",module,Magento_Captcha
 "Reload captcha","Нов код",module,Magento_Captcha
-"Please type the letters and numbers below","Ве молиме внесте ги буквите и броевите од подолу",module,Magento_Captcha
+"Please type the letters and numbers below","Ве молиме внесте го кодот",module,Magento_Captcha
 "Customer Group","Група на купувачи",module,Magento_CatalogInventory
 "Minimum Qty","Минимална кол.",module,Magento_CatalogInventory
 "Allow Qty Below 0","Дозволи кол. под 0",module,Magento_CatalogInventory
@@ -559,6 +561,7 @@ Name,Име,module,Magento_Contact
 Email,Емаил,module,Magento_Contact
 "Phone Number","Телефонски број",module,Magento_Contact
 "What’s on your mind?","Што имате на ум?",module,Magento_Contact
+Submit,Поднеси,module,Magento_Contact
 "<a href=""%1"">Learn more</a>.","<a href=""%1"">Дознај повеќе</a>.",module,Magento_Cookie
 Daily,Дневно,module,Magento_Cron
 Weekly,Неделно,module,Magento_Cron
@@ -711,6 +714,7 @@ Email,Емаил,module,Magento_Customer
 "New Password","Нова лозинка",module,Magento_Customer
 "Password Strength","Јачина на лозинката",module,Magento_Customer
 "No Password","Нема лозинка",module,Magento_Customer
+"Confirm New Password","Потврдете ја новата лозинка",module,Magento_Customer
 "Please enter your email address below to receive a password reset link.","Ве молиме внесете ја емаил адресата подолу за да добиете линк за ресетирање на лозинката.",module,Magento_Customer
 "Reset My Password","Ресетирај ја мојата лозинка",module,Magento_Customer
 "Registered Customers","Регистрирани купувачи",module,Magento_Customer
@@ -725,6 +729,7 @@ Password,Лозинка,module,Magento_Customer
 "Confirm Password","Потврди ја лозинката",module,Magento_Customer
 "Create an Account","Креирај Профил",module,Magento_Customer
 "Set a New Password","Поставете нова лозинка",module,Magento_Customer
+"You have signed out and will go to our homepage in 5 seconds.","Се одјавивте. За 5 секунди ќе бидете префрлени на почетната страна.",module,Magento_Customer
 "New Customers","Нови купувачи",module,Magento_Customer
 "Creating an account has many benefits: check out faster, keep more than one address, track orders and more.","Креирањето на профил има повеќе бенефиции: побрзо завршување на нарачките, зачувување повеќе од една адреса и повеќе.",module,Magento_Customer
 Name,Име,module,Magento_Customer
@@ -755,6 +760,7 @@ Ordered,Порачено,module,Magento_Downloadable
 Canceled,Откажено,module,Magento_Downloadable
 Yes,Да,module,Magento_Eav
 No,Не,module,Magento_Eav
+Email,Емаил,module,Magento_Eav
 Back,Назад,module,Magento_Email
 Preview,Преглед,module,Magento_Email
 Unknown,Непознато,module,Magento_Email
@@ -785,6 +791,7 @@ Continue,Продолжи,module,Magento_ImportExport
 Save,Зачувај,module,Magento_Integration
 "Save & Activate","Зачувај & Активирај",module,Magento_Integration
 Name,Име,module,Magento_Integration
+Email,Емаил,module,Magento_Integration
 "Your Password","Вашата лозинка",module,Magento_Integration
 Edit,Измени,module,Magento_Integration
 No,Не,module,Magento_LayeredNavigation
@@ -886,6 +893,7 @@ Yes,Да,module,Magento_Payment
 "Payment method","Начин на плаќање",module,Magento_Payment
 "Please Select","Ве молиме изберете",module,Magento_Payment
 "--Please Select--","--Ве молиме изберете--",module,Magento_Payment
+Email,Емаил,module,Magento_Paypal
 "First Name",Име,module,Magento_Paypal
 "Last Name",Презиме,module,Magento_Paypal
 Status,Статус,module,Magento_Paypal
@@ -964,6 +972,7 @@ Orders,Нарачки,module,Magento_Reports
 Items,Продукти,module,Magento_Reports
 Tax,Данок,module,Magento_Reports
 Canceled,Откажено,module,Magento_Reports
+Email,Емаил,module,Magento_Reports
 Updated,Ажурирано,module,Magento_Reports
 Customers,Купувачи,module,Magento_Reports
 "First Name",Име,module,Magento_Reports
@@ -1031,6 +1040,7 @@ Back,Назад,module,Magento_Review
 "My Recent Reviews","Мои последни мислења",module,Magento_Review
 "View All","Види ги сите",module,Magento_Review
 "Your Review","Вашето мислење",module,Magento_Review
+"Submitted on %1","Поднесено на %1",module,Magento_Review
 "Back to My Reviews","Назад кон моите мислења",module,Magento_Review
 "Ratings Review Summary","Преглед на оценки од мислења",module,Magento_Review
 "Be the first to review this product","Бидете први што ќе дадете мислење за овој продукт",module,Magento_Review
@@ -1062,6 +1072,8 @@ Subtotal,Вкупно,module,Magento_SalesRule
 Orders,Нарачки,module,Magento_Sales
 "Create New Order","Креирај нова нарачка",module,Magento_Sales
 "Order Address Information","Информации за адресата на нарачката",module,Magento_Sales
+"Submit Comment","Испрати Коментар",module,Magento_Sales
+"Submit Order","Поднеси нарачка",module,Magento_Sales
 "Are you sure you want to cancel this order?","Дали сте сигурни дека сакате да ја отстраните оваа нарачка?",module,Magento_Sales
 Cancel,Откажи,module,Magento_Sales
 "Billing Address","Адреса за плаќање",module,Magento_Sales
@@ -1086,6 +1098,8 @@ Message,Порака,module,Magento_Sales
 "Please select a store","Ве молиме изберете продавница",module,Magento_Sales
 "Order Grand Total",Вкупно,module,Magento_Sales
 "Send Email","Испрати емаил",module,Magento_Sales
+"Submit Invoice and Shipment","Поднеси фактура и испорака",module,Magento_Sales
+"Submit Invoice","Поднеси фактура",module,Magento_Sales
 "Order Statuses","Статуси на нарачка",module,Magento_Sales
 "Order Status","Статус на нарачката",module,Magento_Sales
 "Edit Order Status","Измени статус на нарачката",module,Magento_Sales
@@ -1131,6 +1145,7 @@ Qty,Кол,module,Magento_Sales
 Tax,Данок,module,Magento_Sales
 "Excl. Tax","Без ДДВ",module,Magento_Sales
 "Incl. Tax","Со ДДВ",module,Magento_Sales
+Email,Емаил,module,Magento_Sales
 "First Name",Име,module,Magento_Sales
 "Last Name",Презиме,module,Magento_Sales
 "Street Address",Улица,module,Magento_Sales
@@ -1213,11 +1228,13 @@ View/Edit,Види/Измени,module,Magento_Search
 "Please enter a sender name.","Ве молиме внесете име на испраќач.",module,Magento_SendFriend
 "Please enter a message.","Ве молиме внесете порака.",module,Magento_SendFriend
 Name,Име,module,Magento_SendFriend
+Email,Емаил,module,Magento_SendFriend
 "* Required Fields","* Задолжителни полиња",module,Magento_SendFriend
 Message,Порака,module,Magento_SendFriend
 Invitee,Покани,module,Magento_SendFriend
 "Send Email","Испрати емаил",module,Magento_SendFriend
 Back,Назад,module,Magento_SendFriend
+"Submit Shipment","Поднеси испорака",module,Magento_Shipping
 "Order # %1","Нарачка # %1",module,Magento_Shipping
 "Back to My Orders","Назад кон моите нарачки",module,Magento_Shipping
 Width,Ширина,module,Magento_Shipping
@@ -1322,9 +1339,11 @@ Password,Лозинка,module,Magento_User
 "Password Confirmation","Потврди лозинка",module,Magento_User
 "Account Status","Статус на профилот",module,Magento_User
 "Your password reset link has expired.","Линкот за ресетирање на лозинката помина.",module,Magento_User
+"We'll email you a link to reset your password.","Ќе ви пратиме емаил со линк за ресетирање на лозинката.",module,Magento_User
 "Please correct this email address:","Ве молиме корегирајте ја емаил адресата:",module,Magento_User
 "Please enter an email address.","Внесете емаил адреса.",module,Magento_User
 "You updated your password.","Ја ажуриравте лозинката.",module,Magento_User
+email,емаил,module,Magento_User
 password,лозинка,module,Magento_User
 "Password is required field.","Лозинката е задолжителна.",module,Magento_User
 "Your password must be at least %1 characters.","Лозинката мора да содржи барем %1 карактери.",module,Magento_User
@@ -1357,6 +1376,7 @@ description,опис,module,Magento_Widget
 "You added %1 to your shopping cart.","Додадовте %1 во вашата кошничка.",module,Magento_Wishlist
 "%1 items","%1 продукти",module,Magento_Wishlist
 "1 item","1 продукт",module,Magento_Wishlist
+"We can't add this item to your shopping cart right now.","Во моментот неможеме да го додадеме продуктот во кошничката.",module,Magento_Wishlist
 "%1 product(s) have been added to shopping cart: %2.","%1 продукт/и се додадени во кошничката: %2.",module,Magento_Wishlist
 message,порака,module,Magento_Wishlist
 Message,Порака,module,Magento_Wishlist
@@ -1404,6 +1424,7 @@ Cancel,Откажи,module,Magento_Checkout
 "Save in address book","Зачувај во адресар",module,Magento_Checkout
 "Billing Address","Адреса за плаќање",module,Magento_Checkout
 "Estimated Total","Пресметано вкупно",module,Magento_Checkout
+"You already have an account with us. Sign in or continue as guest.","Имате регистрирано профил кај нас. Најавете се или продолжете како гостин.",module,Magento_Checkout
 Login,"Најави се",module,Magento_Checkout
 "See Details","Види детали",module,Magento_Checkout
 "Options Details","Детали за опции",module,Magento_Checkout
@@ -1422,8 +1443,8 @@ edit,измени,module,Magento_Checkout
 "View Details","Види детали",module,Magento_Checkout
 "Contact Form","Контакт формулар",module,Magento_Contact
 Message,Порака,module,Magento_Contact
-"Welcome to %store_name","Добредојдовте на веб продавницата на %store_name",module,Magento_Customer
-"Welcome to %store_name.","Добредојдовте на веб продавницата на %store_name.",module,Magento_Customer
+"Welcome to %store_name","Добредојдовте на %store_name",module,Magento_Customer
+"Welcome to %store_name.","Добредојдовте на %store_name.",module,Magento_Customer
 "To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","Да се најавите на нашата онлајн продавница, користете ги овие податоци. <a href=""%customer_url"">Мојот Профил</a>:",module,Magento_Customer
 Email:,Емаил:,module,Magento_Customer
 Password:,Лозинка:,module,Magento_Customer
@@ -1434,20 +1455,24 @@ Password:,Лозинка:,module,Magento_Customer
 "Check the status of orders","Провери го статусот на твоите нарачки",module,Magento_Customer
 "View past orders","Видиш направени порачки",module,Magento_Customer
 "Store alternative addresses (for shipping to multiple family members and friends)","Зачуваш повеќе адреси (доколку сакаш да направиш испорака на некој член од семејството или пријател)",module,Magento_Customer
-"Please confirm your %store_name account","Ве молиме потврдете го вашиот %store_name профил",module,Magento_Customer
+"Please confirm your %store_name account","Ве молиме потврдете го вашиот профил - %store_name",module,Magento_Customer
 "You must confirm your %customer_email email before you can sign in (link is only valid once):","Мора да го потврдите вашиот %customer_email емаил пред да се најавите (линкот е валиден само еднаш):",module,Magento_Customer
 "Confirm Your Account","Потврди го твојот профил",module,Magento_Customer
 "Thank you for confirming your %store_name account.","Благодариме што го потврдивте вашиот %store_name профил.",module,Magento_Customer
 "To sign in to our site and set a password, click on the <a href=""%create_password_url"">link</a>:","Да се најавите на нашата продавница и поставите лозинка, клкнете <a href=""%create_password_url"">овде</a>:",module,Magento_Customer
+"Your %store_name email has been changed","Вашата емаил адреса беше променета - %store_name",module,Magento_Customer
 "Hello,","Здраво,",module,Magento_Customer
 "If you have not authorized this action, please contact us immediately at <a href=""mailto:%store_email"">%store_email</a>","Доколку не ја одобрувате оваа промена, ве молиме контактирајте не веднаш на <a href=""mailto:%store_email"">%store_email</a>",module,Magento_Customer
 "or call us at <a href=""tel:%store_phone"">%store_phone</a>","или да се јавете на <a href=""tel:%store_phone"">%store_phone</a>",module,Magento_Customer
 "Thanks,<br>%store_name","Благодариме,<br>%store_name",module,Magento_Customer
-"We have received a request to change the following information associated with your account at %store_name: email, password.","Добивме барање за промена на на следните информации во врска во вашиот профил на %store_name: емаил, лозинка.",module,Magento_Customer
+"Your %store_name email and password has been changed","Вашата емаил адреса и лозинка беа променети - %store_name",module,Magento_Customer
+"We have received a request to change the following information associated with your account at %store_name: email, password.","Добивме барање за промена на следните информации во врска со вашиот профил на %store_name: емаил, лозинка.",module,Magento_Customer
+"Reset your %store_name password","Ресетирајте ја вашата лозинка - %store_name",module,Magento_Customer
 "There was recently a request to change the password for your account.","Неодамна беше побарано да ја смените лозинката за вашиот профил.",module,Magento_Customer
 "If you requested this change, set a new password here:","Доколку вие го поднесовте барање за оваа промене, поставете нова лозинка овде:",module,Magento_Customer
 "If you did not make this request, you can ignore this email and your password will remain the same.","Доколку не го поднесовте вие ова барање, игнорирајте ја оваа порака и вашата лозинка ќе остане иста.",module,Magento_Customer
-"We have received a request to change the following information associated with your account at %store_name: password.","Добивме барање за промена на на следните информации во врска во вашиот профил на %store_name: лозинка.",module,Magento_Customer
+"Your %store_name password has been changed","Вашата лозинка беше променета - %store_name",module,Magento_Customer
+"We have received a request to change the following information associated with your account at %store_name: password.","Добивме барање за промена на следните информации во врска со вашиот профил на %store_name: емаил, лозинка.",module,Magento_Customer
 "Email Address","Емаил адреса",module,Magento_Customer
 "Thank you, %store_name","Благодариме, %store_name",module,Magento_Email
 Message:,Порака:,module,Magento_GiftMessage
@@ -1475,18 +1500,23 @@ Delete,Избриши,module,Magento_GiftMessage
 "Our hours are <span class=""no-link"">%store_hours</span>.","Работно време: <span class=""no-link"">%store_hours</span>.",module,Magento_Sales
 "Billing Info","Информации за плаќање",module,Magento_Sales
 "Shipping Info","Информации за испорака",module,Magento_Sales
-"Your order #%increment_id has been updated with a status of <strong>%order_status</strong>.","Вашата нарачка #%increment_id е обновена со статус <strong>%order_status</strong>.",module,Magento_Sales
+"Your order #%increment_id has been updated with a status of <strong>%order_status</strong>.","Вашата нарачка #%increment_id е ажурирана со статус <strong>%order_status</strong>.",module,Magento_Sales
+"Invoice for your %store_name order","Фактура за вашата нарачка - %store_name",module,Magento_Sales
 "Your Invoice #%invoice_id for Order #%order_id","Вашата фактура #%invoice_id за нарачка #%order_id",module,Magento_Sales
-"Your %store_name order confirmation","Потврда за нарачка - вашата %store_name",module,Magento_Sales
+"Update to your %store_name invoice","Вашата фактура е ажурирана - %store_name",module,Magento_Sales
+"Your %store_name order confirmation","Потврда за вашата нарачка - %store_name",module,Magento_Sales
 "Once your package ships we will send you a tracking number.","Веднаш штом ќе ја испорачаме вашата нарачка ќе ве известиме.",module,Magento_Sales
 "Your Order <span class=""no-link"">#%increment_id</span>","Вашата нарачка <span class=""no-link"">#%increment_id</span>",module,Magento_Sales
 "Placed on <span class=""no-link"">%created_at</span>","Направена на <span class=""no-link"">%created_at</span>",module,Magento_Sales
+"Update to your %store_name order","Вашата нарачка е ажурирана - %store_name",module,Magento_Sales
+"Your %store_name order has shipped","Вашата нарачка е испорачена - %store_name",module,Magento_Sales
 "Your shipping confirmation is below. Thank you again for your business.","Вашата испратница за потврда е подолу. Уште еднаш благодариме што купувате кај нас.",module,Magento_Sales
 "Your Shipment #%shipment_id for Order #%order_id","Вашата испратница #%shipment_id за нарачка #%order_id",module,Magento_Sales
+"Update to your %store_name shipment","Вашата испорака е ажурирана - %store_name",module,Magento_Sales
 "Welcome, %name","Добредојдовте, %name",module,Magento_SendFriend
 "%sender_name wants to share this product with you:","%sender_name сака да го сподели овој продукт со вас:",module,Magento_SendFriend
 "Message from %sender_name:","Порака од %sender_name:",module,Magento_SendFriend
-"Welcome to %store_name.","Добредојдовте на веб продавницата на %store_name.",module,Magento_Theme
+"Welcome to %store_name.","Добредојдовте на %store_name.",module,Magento_Theme
 "To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","Да се најавите на нашата онлајн продавница, користете ги овие податоци. <a href=""%customer_url"">Мојот Профил</a>:",module,Magento_Theme
 Email:,Емаил:,module,Magento_Theme
 Password:,Лозинка:,module,Magento_Theme
@@ -1502,7 +1532,9 @@ Password:,Лозинка:,module,Magento_Theme
 "or call us at %store_phone","или да се јавете на %store_phone",module,Magento_User
 "Thanks,","Благодариме,",module,Magento_User
 "There was recently a request to change the password for your account.","Неодамна беше побарано да ја смените лозинката за вашиот профил.",module,Magento_User
+"If you requested this change, reset your password here:","Доколку вие поднесовте барање за оваа промена, поставете нова лозинка овде:",module,Magento_User
 "If you did not make this request, you can ignore this email and your password will remain the same.","Доколку не го поднесовте вие ова барање, игнорирајте ја оваа порака и вашата лозинка ќе остане иста.",module,Magento_User
+"Take a look at %customer_name's Wish List","Види ја листата со желби на %customer_name",module,Magento_Wishlist
 "%customer_name wants to share this Wish List from %store_name with you:","%customer_name сака да ја сподели оваа Листа со желби од %store_name со вас:",module,Magento_Wishlist
 "Message from %customer_name:","Порака од %customer_name:",module,Magento_Wishlist
 "View all Wish List items","Види ги сите продукти од листата со желби",module,Magento_Wishlist
@@ -1718,6 +1750,7 @@ Status,Статус,module,Magento_Integration
 "Subscription Options","Претплата за",module,Magento_Newsletter
 Status,Статус,module,Magento_Newsletter
 Delete,Избриши,module,Magento_Newsletter
+Email,Емаил,module,Magento_Newsletter
 Customer,Купувач,module,Magento_Newsletter
 "Customer First Name","Име на купувач",module,Magento_Newsletter
 "Customer Last Name","Презиме на купувач",module,Magento_Newsletter
